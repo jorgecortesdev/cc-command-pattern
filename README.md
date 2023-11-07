@@ -4,6 +4,15 @@
 
 Este repositorio contiene el código de ejemplo utilizado en el video del patrón de comando de mi canal de youtube.
 
+## Ejecución
+
+```shell
+git clone https://github.com/jorgecortesdev/cc-command-pattern.git
+cd cc-command-pattern
+composer install
+php index.php
+```
+
 ### Referencias
 
 - Liga al video: https://www.youtube.com/watch?v=rLYyeHfLGrA
