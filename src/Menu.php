@@ -7,7 +7,9 @@ namespace App;
 class Menu
 {
     protected Command $openCommand;
+
     protected Command $saveCommand;
+
     protected Command $closeCommand;
 
     public function __construct(Command $openCommand, Command $saveCommand, Command $closeCommand)

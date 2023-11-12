@@ -7,6 +7,7 @@ namespace App;
 class MySwitch
 {
     protected Command $onCommand;
+
     protected Command $offCommand;
 
     public function __construct(Command $onCommand, Command $offCommand)
